@@ -9,7 +9,7 @@ import time
 
 import aiohttp
 import qrcode
-import webwhatsapi
+from . import webwhatsapi
 from selenium.common import exceptions
 
 import utils
